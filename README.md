@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rush-Hour Missed Call Capture</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 0; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 28px 18px; }
+    .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 18px; margin: 14px 0; }
+    h1 { font-size: 34px; margin: 0 0 10px; }
+    p { line-height: 1.5; margin: 8px 0; font-size: 16px; }
+    .btns { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+    a.btn { display:inline-block; padding: 12px 14px; border-radius: 10px; text-decoration: none; border: 1px solid #111827; }
+    a.primary { background:#111827; color:white; }
+    a.secondary { background:white; color:#111827; }
+    ul { margin: 10px 0 0 18px; }
+    .small { font-size: 13px; color: #4b5563; }
+    .hl { font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Stop Losing Rush-Hour Calls</h1>
+    <p>When nobody can answer during the rush, callers hang up and go elsewhere. We install an overflow capture system so missed calls turn into confirmed reservations, takeout orders, or answered questions.</p>
+
+    <div class="card">
+      <p class="hl">What you get in 14 days</p>
+      <ul>
+        <li>Unanswered calls forward after ~4 rings to an assistant</li>
+        <li>Assistant handles up to 15 approved FAQs or captures the request</li>
+        <li>Manager + host get SMS + email with name/number/need/preferred time</li>
+        <li>Every request is logged for weekly metrics</li>
+      </ul>
+      <p class="small">No POS/reservation integration in v1. Your team texts customers back within 15 minutes during business hours.</p>
+    </div>
+
+    <div class="card">
+      <p class="hl">Pricing</p>
+      <p>$400 one-time setup. Optional $80/month support (up to 30 min/week via email/call).</p>
+      <p class="small">Refund only if the system fails acceptance tests by Day 14 (routing + capture + notify + log).</p>
+    </div>
+
+    <div class="card">
+      <p class="hl">Step 1: Quick Fit Check</p>
+      <p>Answer 5 yes/no questions. If you qualify, book a 15-minute call.</p>
+      <div class="btns">
+        <a class="btn primary" href="PASTE_MINI_AUDIT_GOOGLE_FORM_URL_HERE" target="_blank" rel="noopener">Mini-Audit (2 minutes)</a>
+        <a class="btn secondary" href="PASTE_GOOGLE_CALENDAR_BOOKING_LINK_HERE" target="_blank" rel="noopener">Book 15-minute Call</a>
+      </div>
+      <p class="small">Preferred call windows: 9:00–9:30 or 10:00–10:30.</p>
+    </div>
+
+    <p class="small">© 2026 — Rush-Hour Call Capture</p>
+  </div>
+</body>
+</html>
